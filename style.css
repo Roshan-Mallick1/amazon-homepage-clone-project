@@ -1,0 +1,385 @@
+/* ========== GLOBAL STYLES ========== */
+* {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Utility class for hover border effect */
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+/* ========== NAVBAR STYLES ========== */
+.navbar {
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Logo container */
+.nav-logo {
+    height: 50px;
+    width: 150px;
+    padding: 2px;
+}
+
+/* Amazon logo */
+.logo { 
+    background-image: url(Photo_folder/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* ========== ADDRESS SECTION ========== */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: .95rem;
+    margin-left: 17px;
+}
+
+.add-second {
+    font-size: 1.15rem;
+    margin-left: 5px;
+    color: white;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* ========== SEARCH BAR STYLES ========== */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 800px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+}
+
+.search-input {
+    font-size: 1.15rem;
+    width: 100%;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* ========== REGION DROPDOWN ========== */
+.nav-region {
+    display: flex;
+}
+
+.region-logo {
+    background-image: url(Photo_folder/india.png);
+    background-size: cover;
+    height: 25px;
+    width: 30px;
+}
+
+.region-dropdown {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.15rem;
+    outline: none;
+}
+
+/* ========== ACCOUNT, RETURNS, CART ========== */
+span {
+    font-size: 0.85rem;
+    color: white;
+}
+
+.text-down {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-cart i {
+    font-size: 35px;
+}
+
+.nav-cart {
+    color: white;
+    font-size: 1rem;
+}
+
+/* ========== NAVIGATION PANEL ========== */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-option p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-option {
+    width: 94%;
+}
+
+/* ========== MAIN BODY SECTION ========== */
+.main-body {
+    background-image: linear-gradient(to top, rgba(190, 190, 190, 1), transparent 100px), url(Photo_folder/body_bg_image.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-body-text {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 90px;
+}
+
+.main-body-text a {
+    color: #007185;
+}
+
+/* ========== PRODUCT GRID SECTION ========== */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #bebebe;
+}
+
+.box {
+    border: 2px solid black;
+    height: 420px;
+    width: 23%;
+    transform: translateY(-60px);
+    background-color: rgb(221, 218, 218);
+    margin-top: 1rem;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #131a22;
+    background-color: white;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+/* Specific background images for each product box */
+.one   { background-image: url(Photo_folder/gaming.webp); }
+.two   { background-image: url(Photo_folder/monitor.png); }
+.three { background-image: url(Photo_folder/keyboard_mouse.webp); }
+.four  { background-image: url(Photo_folder/16_gb_ram_3200mhz.webp); }
+.five  { background-image: url(Photo_folder/Asus_motherboard.png); }
+.six   { background-image: url(Photo_folder/NVme_ssd.jpg); }
+.seven { background-image: url(Photo_folder/1000W_power_supply.jpg); }
+.eight { background-image: url(Photo_folder/pc_cabinet.jpg); }
+
+/* ========== FOOTER STYLES ========== */
+footer {
+    color: white;
+}
+
+/* "Back to top" bar */
+.foot-panel-one {
+    background-color: #374758;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+/* Footer info columns */
+.foot-panel-two {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #202d3a;
+    color: rgb(184, 183, 183);
+    height: 350px;
+}
+
+ul p {
+    margin-top: 50px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: rgb(212, 206, 206);
+}
+
+ul i {
+    margin-left: 10px;
+}
+
+/* Language/Currency selectors and branding */
+.foot-panel-three {
+    background: #202d3a;
+    border-top: 0.5px solid white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    background-image: url("Photo_folder/amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.footer-option {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 8px 12px;
+    color: white;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.footer-option i,
+.footer-option span {
+    font-size: 1rem;
+}
+
+.dropdown {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Regional flag logo */
+.region .footer-region-logo {
+    background-image: url("Photo_folder/india.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 24px;
+}
+
+/* ========== EXTENDED FOOTER LINKS SECTION ========== */
+.foot-panel-four {
+    background-color: #131a22;
+    color: white;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Grid for Amazon service links */
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-links p {
+    font-size: 12px;
+    color: #ddd;
+    margin: 0;
+}
+
+/* Footer legal information */
+.footer-legal {
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.footer-legal a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-legal a:hover {
+    text-decoration: underline;
+}
